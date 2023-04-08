@@ -1,0 +1,8 @@
+---
+vector_version: "0.28.0"
+vector_test_dir: "{{ ansible_env.HOME }}/test"
+clickhouse_host: "localhost"
+clickhouse_port: "8123"
+clickhouse_user: "default"
+clickhouse_password: ""
+...
