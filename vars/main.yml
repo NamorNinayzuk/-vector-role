@@ -1,2 +1,5 @@
 ---
 # vars file for vector-role
+vector_datadir: "/var/lib/vector"
+vector_config: "/etc/vector/vector.toml"
+...
