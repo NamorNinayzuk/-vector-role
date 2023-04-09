@@ -3,7 +3,9 @@
 - name: Start vector service
   become: true
   ansible.builtin.service:
-    name: vector
-    pattern: "/usr/bin/vector"
-    state: started
+    name: "vector"
+    #pattern: "/usr/bin/vector"
+    #state: started
+    enabled: true
+    state: restarted
 ...
