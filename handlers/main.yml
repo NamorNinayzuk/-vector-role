@@ -8,4 +8,5 @@
     #state: started
     enabled: true
     state: restarted
+  when: ansible_facts.virtualization_type != "docker"
 ...
